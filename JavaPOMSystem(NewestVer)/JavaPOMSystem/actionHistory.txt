@@ -1,0 +1,659 @@
+2023.07.15 16:41:31,A0002,Logged into the system.
+2023.07.15 16:41:34,A0002,Viewed list of All users details.
+2023.07.15 16:41:41,A0002,Viewed list of All users details.
+2023.07.15 16:41:44,A0002,Viewed list of All users details.
+2023.07.15 16:41:57,A0002,Viewed list of Admin details.
+2023.07.15 16:42:00,A0002,Viewed list of Admin details.
+2023.07.15 16:42:03,A0002,Viewed list of Admin details.
+2023.07.15 16:42:42,A0002,Registered new user P0004.
+2023.07.15 16:42:45,A0002,Accessing Sales system.
+2023.07.15 16:42:46,A0002,Logged out of the Sales system.
+2023.07.15 16:42:49,A0002,Viewed list of All users details.
+2023.07.15 16:43:03,A0002,Viewed list of All users details.
+2023.07.15 16:44:20,A0002,Edited user details for A0001.
+2023.07.15 16:44:29,A0002,Accessing Sales system.
+2023.07.15 16:44:30,A0002,Logged out of the Sales system.
+2023.07.15 16:44:36,A0002,Viewed list of All users details.
+2023.07.15 16:44:44,A0002,Viewed list of Purchasing details.
+2023.07.15 16:44:46,A0002,Updated status of P0004 from Active to Inactive.
+2023.07.15 16:45:30,A0002,Viewed action history.
+2023.07.15 16:45:36,A0002,Viewed action history.
+2023.07.15 16:45:44,A0002,Viewed action history.
+2023.07.15 16:45:53,A0002,Viewed action history.
+2023.07.15 16:46:12,A0002,Viewed own profile.
+2023.07.15 16:46:19,A0002,Accessing Sales system.
+2023.07.15 16:46:21,A0002,Viewed list of item details.
+2023.07.15 16:48:16,A0002,Added new item I0026.
+2023.07.15 16:48:18,A0002,Viewed list of item details.
+2023.07.15 16:49:33,A0002,Viewed list of supplier details.
+2023.07.15 16:49:45,A0002,Viewed list of daily sales.
+2023.07.15 16:49:57,A0002,Logged out of the Sales system.
+2023.07.15 16:49:58,A0002,Accessing Purchasing system.
+2023.07.15 16:49:59,A0002,Viewed list of item details.
+2023.07.15 16:50:06,A0002,Viewed list of stock details.
+2023.07.15 16:50:21,A0002,Viewed list of suppliers for item I0004.
+2023.07.15 16:50:33,A0002,Viewed list of supplier details.
+2023.07.15 16:50:37,A0002,Logged out of the Purchasing system.
+2023.07.15 16:50:37,A0002,Logged out of the Admin system.
+2023.07.15 16:50:40,A0002,Logged into the system.
+2023.07.15 16:50:42,A0002,Viewed action history.
+2023.07.15 16:50:56,A0002,Logged out of the Admin system.
+2023.07.15 16:52:10,A0002,Logged into the system.
+2023.07.15 16:52:12,A0002,Accessing Sales system.
+2023.07.15 16:52:14,A0002,Logged out of the Sales system.
+2023.07.15 16:52:15,A0002,Accessing Purchasing system.
+2023.07.15 16:52:16,A0002,Viewed list of stock details.
+2023.07.15 16:52:19,A0002,Viewed list of item details.
+2023.07.15 16:52:31,A0002,Logged out of the Purchasing system.
+2023.07.15 16:52:31,A0002,Logged out of the Admin system.
+2023.07.15 16:53:23,A0002,Logged into the system.
+2023.07.15 16:53:24,A0002,Accessing Sales system.
+2023.07.15 16:53:27,A0002,Viewed list of stock details.
+2023.07.15 16:54:14,A0002,Logged into the system.
+2023.07.15 16:54:16,A0002,Accessing Sales system.
+2023.07.15 16:54:19,A0002,Viewed list of stock details.
+2023.07.15 17:14:26,A0002,Logged into the system.
+2023.07.15 17:14:28,A0002,Accessing Sales system.
+2023.07.15 17:14:31,A0002,Viewed list of stock details.
+2023.07.15 17:14:40,A0002,Added new sales for item I0005 for date: 2023.07.15.
+2023.07.15 17:14:44,A0002,Viewed list of daily sales.
+2023.07.15 17:14:48,A0002,Logged out of the Sales system.
+2023.07.15 17:14:49,A0002,Accessing Purchasing system.
+2023.07.15 17:14:51,A0002,Viewed list of stock details.
+2023.07.15 17:15:02,A0002,Logged out of the Purchasing system.
+2023.07.15 17:15:07,A0002,Viewed action history.
+2023.07.15 17:15:12,A0002,Logged out of the Admin system.
+2023.07.17 21:49:11,A0002,Logged into the system.
+2023.07.17 21:49:14,A0002,Accessing Sales system.
+2023.07.17 21:49:16,A0002,Viewed list of daily sales.
+2023.07.18 08:54:10,A0002,Logged into the system.
+2023.07.18 08:54:12,A0002,Accessing Sales system.
+2023.07.18 08:54:18,A0002,Logged out of the Sales system.
+2023.07.18 08:54:18,A0002,Accessing Purchasing system.
+2023.07.18 08:54:20,A0002,Viewed list of stock details.
+2023.07.18 08:54:27,A0002,Logged out of the Purchasing system.
+2023.07.18 08:54:28,A0002,Logged out of the Admin system.
+2023.07.18 09:03:59,A0002,Logged into the system.
+2023.07.18 09:04:00,A0002,Accessing Sales system.
+2023.07.18 09:28:39,A0002,Logged into the system.
+2023.07.18 09:28:41,A0002,Accessing Sales system.
+2023.07.18 10:05:24,A0002,Logged into the system.
+2023.07.18 10:05:26,A0002,Accessing Sales system.
+2023.07.18 10:05:28,A0002,Viewed list of daily sales.
+2023.07.18 10:05:45,A0002,Logged out of the Sales system.
+2023.07.18 10:05:45,A0002,Logged out of the Admin system.
+2023.07.18 10:06:55,A0002,Logged into the system.
+2023.07.18 10:06:55,A0002,Accessing Sales system.
+2023.07.18 10:06:58,A0002,Viewed list of daily sales.
+2023.07.18 10:07:04,A0002,Logged out of the Sales system.
+2023.07.18 10:07:05,A0002,Logged out of the Admin system.
+2023.07.18 10:22:34,A0002,Logged into the system.
+2023.07.18 10:22:35,A0002,Accessing Sales system.
+2023.07.18 10:22:37,A0002,Viewed list of daily sales.
+2023.07.18 10:22:42,A0002,Viewed list of stock details.
+2023.07.18 10:22:50,A0002,Added new sales for item I0021 for date: 2023.07.18.
+2023.07.18 10:22:56,A0002,Viewed list of daily sales.
+2023.07.18 10:23:00,A0002,Logged out of the Sales system.
+2023.07.18 10:23:01,A0002,Accessing Purchasing system.
+2023.07.18 10:23:02,A0002,Viewed list of stock details.
+2023.07.18 10:23:05,A0002,Logged out of the Purchasing system.
+2023.07.18 10:23:08,A0002,Accessing Sales system.
+2023.07.18 10:24:25,A0002,Logged into the system.
+2023.07.18 10:24:26,A0002,Accessing Sales system.
+2023.07.18 10:24:42,A0002,Viewed list of daily sales.
+2023.07.18 10:26:01,A0002,Logged into the system.
+2023.07.18 10:26:02,A0002,Accessing Sales system.
+2023.07.18 21:33:38,A0002,Logged into the system.
+2023.07.18 21:33:45,A0002,Accessing Purchasing system.
+2023.07.18 21:33:46,A0002,Viewed list of stock details.
+2023.07.18 21:33:51,A0002,Logged out of the Purchasing system.
+2023.07.18 21:33:52,A0002,Logged out of the Admin system.
+2023.08.03 13:44:55,A0002,Logged into the system.
+2023.08.03 13:44:59,A0002,Viewed list of All users details.
+2023.08.03 13:45:20,A0002,Viewed list of Admin details.
+2023.08.03 14:38:43,A0002,Logged into the system.
+2023.08.03 14:38:45,A0002,Accessing Sales system.
+2023.08.03 14:38:48,A0002,Logged out of the Sales system.
+2023.08.03 14:38:56,A0002,Accessing Purchasing system.
+2023.08.03 14:38:57,A0002,Logged out of the Purchasing system.
+2023.08.03 14:38:59,A0002,Logged out of the Admin system.
+2023.08.03 15:22:36,A0002,Logged into the system.
+2023.08.03 15:22:37,A0002,Accessing Purchasing system.
+2023.08.03 15:22:38,A0002,Viewed list of item details.
+2023.08.03 15:23:23,A0002,Logged out of the Purchasing system.
+2023.08.03 15:23:23,A0002,Logged out of the Admin system.
+2023.08.05 01:33:42,A0002,Logged into the system.
+2023.08.05 01:33:44,A0002,Accessing Sales system.
+2023.08.05 01:33:46,A0002,Viewed list of supplier details.
+2023.08.05 01:33:51,A0002,Logged out of the Sales system.
+2023.08.05 01:33:51,A0002,Logged out of the Admin system.
+2023.08.05 01:38:34,A0002,Logged into the system.
+2023.08.05 01:39:12,A0002,Registered new user P0002.
+2023.08.05 01:39:22,A0002,Viewed list of All users details.
+2023.08.05 01:39:47,A0002,Edited user details for P0002.
+2023.08.05 01:39:52,A0002,Viewed list of Purchasing details.
+2023.08.05 01:39:56,A0002,Logged out of the Admin system.
+2023.08.05 01:39:59,A0002,Logged into the system.
+2023.08.05 01:40:02,A0002,Viewed action history.
+2023.08.05 01:50:14,A0002,Logged into the system.
+2023.08.05 01:50:15,A0002,Accessing Sales system.
+2023.08.05 01:50:43,A0002,Added new item I0025.
+2023.08.05 01:50:55,A0002,Viewed list of item details.
+2023.08.05 01:51:04,A0002,Viewed list of item details.
+2023.08.05 01:51:20,A0002,Edited details for item I0025.
+2023.08.05 01:51:23,A0002,Viewed list of item details.
+2023.08.05 01:51:25,A0002,Logged out of the Sales system.
+2023.08.05 01:51:26,A0002,Logged out of the Admin system.
+2023.08.14 16:15:33,A0002,Logged into the system.
+2023.08.14 16:15:38,A0002,Viewed action history.
+2023.08.14 16:15:46,A0002,Logged out of the Admin system.
+2023.08.14 16:33:10,A0002,Logged into the system.
+2023.08.14 16:33:13,A0002,Accessing Sales system.
+2023.08.14 16:33:19,A0002,Viewed list of item details.
+2023.08.14 16:33:36,A0002,Logged out of the Sales system.
+2023.08.14 16:33:37,A0002,Logged out of the Admin system.
+2023.08.23 13:26:59,A0002,Logged into the system.
+2023.08.23 13:28:18,A0002,Logged into the system.
+2023.08.23 13:28:58,A0002,Logged out of the Admin system.
+2023.08.23 13:30:45,A0002,Logged into the system.
+2023.08.23 13:31:11,A0002,Logged out of the Admin system.
+2023.08.23 13:34:34,A0002,Logged into the system.
+2023.08.23 13:35:04,A0002,Registered new user A0003.
+2023.08.23 13:35:19,A0002,Logged out of the Admin system.
+2023.08.23 13:35:25,A0002,Logged into the system.
+2023.08.23 13:35:51,A0002,Registered new user P0003.
+2023.08.23 13:36:23,A0002,Logged into the system.
+2023.08.23 13:36:47,A0002,Registered new user S0003.
+2023.08.23 13:37:03,A0002,Viewed own profile.
+2023.08.23 13:37:18,A0002,Logged out of the Admin system.
+2023.08.23 13:37:22,A0002,Logged into the system.
+2023.08.23 13:37:24,A0002,Viewed own profile.
+2023.08.23 13:40:27,A0002,Logged out of the Admin system.
+2023.08.23 13:45:29,A0002,Logged into the system.
+2023.08.23 13:45:58,A0002,Logged into the system.
+2023.08.23 13:50:33,A0002,Logged into the system.
+2023.08.23 13:50:54,A0002,Registered new user S0003.
+2023.08.23 13:51:32,A0002,Accessing Sales system.
+2023.08.23 13:51:34,A0002,Logged out of the Sales system.
+2023.08.23 13:51:46,A0002,Viewed own profile.
+2023.08.23 13:52:38,A0002,Logged into the system.
+2023.08.23 13:52:48,A0002,Updated status of S0003 from Active to Inactive.
+2023.08.23 13:53:00,A0002,Updated status of S0003 from Inactive to Active.
+2023.08.23 13:53:05,A0002,Logged out of the Admin system.
+2023.08.23 14:32:56,A0002,Logged into the system.
+2023.08.23 14:36:01,A0002,Logged into the system.
+2023.08.23 14:37:07,A0002,Logged into the system.
+2023.08.23 14:37:09,A0002,Accessing Sales system.
+2023.08.23 14:37:19,A0002,Logged out of the Sales system.
+2023.08.23 14:37:19,A0002,Logged out of the Admin system.
+2023.08.23 14:37:32,A0002,Logged into the system.
+2023.08.23 14:37:43,A0002,Logged out of the Admin system.
+2023.08.23 16:02:27,A0002,Logged into the system.
+2023.08.23 16:02:32,A0002,Accessing Sales system.
+2023.08.23 16:04:13,A0002,Logged out of the Sales system.
+2023.08.23 16:04:14,A0002,Logged out of the Admin system.
+2023.08.23 16:06:15,A0002,Logged into the system.
+2023.08.23 16:06:16,A0002,Accessing Sales system.
+2023.08.23 16:07:00,A0002,Logged out of the Sales system.
+2023.08.23 16:07:00,A0002,Logged out of the Admin system.
+2023.08.23 16:09:17,A0002,Logged into the system.
+2023.08.23 16:09:19,A0002,Accessing Sales system.
+2023.08.23 16:10:39,A0002,Logged out of the Sales system.
+2023.08.23 16:10:40,A0002,Logged out of the Admin system.
+2023.08.23 16:11:22,A0002,Logged into the system.
+2023.08.23 16:11:23,A0002,Accessing Sales system.
+2023.08.23 16:11:59,A0002,Logged out of the Sales system.
+2023.08.23 16:11:59,A0002,Logged out of the Admin system.
+2023.08.23 16:22:35,A0002,Logged into the system.
+2023.08.23 16:22:36,A0002,Accessing Sales system.
+2023.08.23 16:22:46,A0002,Logged out of the Sales system.
+2023.08.23 16:22:46,A0002,Logged out of the Admin system.
+2023.08.23 16:24:17,A0002,Logged into the system.
+2023.08.23 16:24:18,A0002,Accessing Sales system.
+2023.08.23 16:24:26,A0002,Logged out of the Sales system.
+2023.08.23 16:24:27,A0002,Logged out of the Admin system.
+2023.08.23 16:31:15,A0002,Logged into the system.
+2023.08.23 16:31:16,A0002,Accessing Sales system.
+2023.08.23 23:30:15,A0002,Logged into the system.
+2023.08.23 23:30:16,A0002,Accessing Purchasing system.
+2023.08.23 23:30:46,A0002,Logged out of the Purchasing system.
+2023.08.23 23:30:46,A0002,Logged out of the Admin system.
+2023.08.23 23:31:17,A0002,Logged into the system.
+2023.08.23 23:31:18,A0002,Accessing Purchasing system.
+2023.08.23 23:34:20,A0002,Logged into the system.
+2023.08.23 23:34:21,A0002,Accessing Purchasing system.
+2023.08.23 23:34:55,A0002,Logged into the system.
+2023.08.23 23:34:56,A0002,Accessing Purchasing system.
+2023.08.23 23:37:29,A0002,Logged into the system.
+2023.08.23 23:37:30,A0002,Accessing Purchasing system.
+2023.08.23 23:37:59,A0002,Logged into the system.
+2023.08.23 23:37:59,A0002,Accessing Sales system.
+2023.08.23 23:38:01,A0002,Logged out of the Sales system.
+2023.08.23 23:38:01,A0002,Accessing Purchasing system.
+2023.08.23 23:40:29,A0002,Logged into the system.
+2023.08.23 23:40:29,A0002,Accessing Purchasing system.
+2023.08.23 23:41:27,A0002,Logged into the system.
+2023.08.23 23:41:28,A0002,Accessing Purchasing system.
+2023.08.23 23:42:21,A0002,Viewed own profile.
+2023.08.23 23:45:48,A0002,Logged out of the Purchasing system.
+2023.08.23 23:45:51,A0002,Accessing Sales system.
+2023.08.23 23:45:59,A0002,Logged out of the Sales system.
+2023.08.23 23:46:12,A0002,Updated status of A0001 from Active to Inactive.
+2023.08.23 23:58:54,A0002,Logged into the system.
+2023.08.23 23:58:56,A0002,Accessing Sales system.
+2023.08.23 23:59:09,A0002,Logged out of the Sales system.
+2023.08.23 23:59:10,A0002,Accessing Purchasing system.
+2023.08.24 08:21:54,A0002,Logged into the system.
+2023.08.24 10:10:06,A0002,Logged into the system.
+2023.08.24 10:15:23,A0002,Accessing Sales system.
+2023.08.24 10:15:30,A0002,Logged out of the Sales system.
+2023.08.24 10:15:30,A0002,Accessing Purchasing system.
+2023.08.24 11:22:04,A0002,Logged into the system.
+2023.08.24 11:22:09,A0002,Logged out of the Admin system.
+2023.08.24 13:21:50,A0002,Logged into the system.
+2023.08.24 13:21:56,A0002,Logged out of the Admin system.
+2023.08.24 13:26:44,A0002,Logged into the system.
+2023.08.24 13:27:25,A0002,Registered new user A0003.
+2023.08.24 13:27:47,A0002,Logged out of the Admin system.
+2023.08.24 13:30:17,A0002,Logged into the system.
+2023.08.24 13:30:24,A0002,Updated status of A0003 from Active to Inactive.
+2023.08.24 13:31:29,A0002,Updated status of A0001 from Inactive to Active.
+2023.08.24 13:31:41,A0002,Logged out of the Admin system.
+2023.08.24 19:20:42,A0002,Logged into the system.
+2023.08.24 19:20:43,A0002,Accessing Sales system.
+2023.08.24 19:24:35,A0002,Logged into the system.
+2023.08.24 19:24:39,A0002,Accessing Sales system.
+2023.08.24 19:25:09,A0002,Logged out of the Sales system.
+2023.08.24 19:25:09,A0002,Logged out of the Admin system.
+2023.08.24 19:32:59,A0002,Logged into the system.
+2023.08.24 19:33:04,A0002,Accessing Sales system.
+2023.08.24 19:33:53,A0002,Logged out of the Sales system.
+2023.08.24 19:33:53,A0002,Logged out of the Admin system.
+2023.08.24 22:45:22,A0002,Logged into the system.
+2023.08.24 22:45:24,A0002,Accessing Sales system.
+2023.08.24 22:45:38,A0002,Added new sales for item I0022 for date: 2023.08.24.
+2023.08.24 22:47:29,A0002,Logged into the system.
+2023.08.24 22:47:30,A0002,Accessing Sales system.
+2023.08.24 22:50:12,A0002,Logged into the system.
+2023.08.24 22:50:14,A0002,Accessing Sales system.
+2023.08.24 22:50:34,A0002,Viewed list of daily sales.
+2023.08.24 22:50:45,A0002,Added new sales for item I0021 for date: 2023.08.24.
+2023.08.24 22:53:23,A0002,Logged into the system.
+2023.08.24 22:53:23,A0002,Accessing Sales system.
+2023.08.24 22:53:39,A0002,Logged into the system.
+2023.08.24 22:53:40,A0002,Accessing Sales system.
+2023.08.24 22:53:50,A0002,Added new sales for item I0022 for date: 2023.08.24.
+2023.08.24 22:55:54,A0002,Logged into the system.
+2023.08.24 22:55:54,A0002,Accessing Sales system.
+2023.08.24 22:55:58,A0002,Viewed list of daily sales.
+2023.08.24 22:57:17,A0002,Logged into the system.
+2023.08.24 22:57:18,A0002,Accessing Sales system.
+2023.08.24 22:57:26,A0002,Viewed list of daily sales.
+2023.08.24 22:57:57,A0002,Viewed list of daily sales.
+2023.08.24 22:58:23,A0002,Logged out of the Sales system.
+2023.08.24 22:58:24,A0002,Logged out of the Admin system.
+2023.08.24 23:03:58,A0002,Logged into the system.
+2023.08.24 23:03:59,A0002,Accessing Sales system.
+2023.08.24 23:04:03,A0002,Viewed list of daily sales.
+2023.08.24 23:04:15,A0002,Viewed list of daily sales.
+2023.08.24 23:05:00,A0002,Logged into the system.
+2023.08.24 23:05:01,A0002,Accessing Sales system.
+2023.08.24 23:05:03,A0002,Viewed list of daily sales.
+2023.08.24 23:05:20,A0002,Viewed list of daily sales.
+2023.08.24 23:05:40,A0002,Viewed list of daily sales.
+2023.08.24 23:05:50,A0002,Logged out of the Sales system.
+2023.08.24 23:05:50,A0002,Logged out of the Admin system.
+2023.08.24 23:57:26,A0002,Logged into the system.
+2023.08.24 23:57:27,A0002,Accessing Sales system.
+2023.08.24 23:57:33,A0002,Viewed list of daily sales.
+2023.08.24 23:57:41,A0002,Viewed list of daily sales.
+2023.08.24 23:58:00,A0002,Viewed list of daily sales.
+2023.08.24 23:58:34,A0002,Logged into the system.
+2023.08.24 23:58:35,A0002,Accessing Sales system.
+2023.08.24 23:58:36,A0002,Viewed list of daily sales.
+2023.08.24 23:58:41,A0002,Logged out of the Sales system.
+2023.08.24 23:58:41,A0002,Logged out of the Admin system.
+2023.08.24 23:58:45,A0002,Logged out of the Sales system.
+2023.08.24 23:58:46,A0002,Logged out of the Admin system.
+2023.08.24 23:59:53,A0002,Logged into the system.
+2023.08.24 23:59:53,A0002,Accessing Sales system.
+2023.08.25 00:00:04,A0002,Viewed list of daily sales.
+2023.08.25 00:00:13,A0002,Viewed list of daily sales.
+2023.08.25 00:00:25,A0002,Viewed list of daily sales.
+2023.08.25 00:00:37,A0002,Logged out of the Sales system.
+2023.08.25 00:00:37,A0002,Logged out of the Admin system.
+2023.08.25 00:01:16,A0002,Logged into the system.
+2023.08.25 00:01:16,A0002,Accessing Sales system.
+2023.08.25 00:01:28,A0002,Viewed list of daily sales.
+2023.08.25 00:01:39,A0002,Viewed list of daily sales.
+2023.08.25 00:01:41,A0002,Logged out of the Sales system.
+2023.08.25 00:01:41,A0002,Logged out of the Admin system.
+2023.08.25 01:01:42,A0002,Logged into the system.
+2023.08.25 01:01:45,A0002,Accessing Sales system.
+2023.08.25 01:02:06,A0002,Logged out of the Sales system.
+2023.08.25 01:02:07,A0002,Logged out of the Admin system.
+2023.08.25 09:01:52,A0002,Logged into the system.
+2023.08.25 09:01:54,A0002,Accessing Sales system.
+2023.08.25 09:01:55,A0002,Viewed list of stock details.
+2023.08.25 09:01:59,A0002,Logged out of the Sales system.
+2023.08.25 09:01:59,A0002,Logged out of the Admin system.
+2023.08.25 09:05:06,A0002,Logged into the system.
+2023.08.25 09:05:07,A0002,Accessing Sales system.
+2023.08.25 09:05:09,A0002,Logged out of the Sales system.
+2023.08.25 09:05:11,A0002,Viewed list of All users details.
+2023.08.25 09:05:28,A0002,Viewed list of All users details.
+2023.08.25 09:05:33,A0002,Viewed list of Admin details.
+2023.08.25 09:06:26,A0002,Registered new user S0004.
+2023.08.25 09:06:43,A0002,Viewed list of All users details.
+2023.08.25 09:06:59,A0002,Viewed list of All users details.
+2023.08.25 09:07:43,A0002,Edited user details for S0004.
+2023.08.25 09:07:45,A0002,Viewed list of All users details.
+2023.08.25 09:07:52,A0002,Viewed list of Sales details.
+2023.08.25 09:07:58,A0002,Viewed list of Sales details.
+2023.08.25 09:08:02,A0002,Updated status of S0004 from Active to Inactive.
+2023.08.25 09:08:04,A0002,Accessing Sales system.
+2023.08.25 09:08:05,A0002,Logged out of the Sales system.
+2023.08.25 09:08:07,A0002,Viewed list of All users details.
+2023.08.25 09:08:24,A0002,Viewed own profile.
+2023.08.25 09:08:34,A0002,Accessing Sales system.
+2023.08.25 09:10:04,A0002,Viewed list of stock details.
+2023.08.25 09:11:24,A0002,Logged out of the Sales system.
+2023.08.25 09:11:25,A0002,Logged out of the Admin system.
+2023.08.25 09:11:29,A0002,Logged into the system.
+2023.08.25 09:11:29,A0002,Accessing Sales system.
+2023.08.25 09:11:31,A0002,Viewed list of stock details.
+2023.08.25 09:11:38,A0002,Viewed list of item details.
+2023.08.25 09:14:28,A0002,Added new item I0023.
+2023.08.25 09:14:31,A0002,Viewed list of stock details.
+2023.08.25 09:14:49,A0002,Viewed list of item details.
+2023.08.25 09:18:46,A0002,Logged out of the Sales system.
+2023.08.25 09:18:46,A0002,Logged out of the Admin system.
+2023.08.25 09:21:39,A0002,Logged into the system.
+2023.08.25 09:21:40,A0002,Accessing Sales system.
+2023.08.25 09:22:05,A0002,Added new item I0023.
+2023.08.25 09:22:22,A0002,Viewed list of item details.
+2023.08.25 09:22:29,A0002,Viewed list of stock details.
+2023.08.25 09:22:34,A0002,Logged out of the Sales system.
+2023.08.25 09:22:35,A0002,Logged out of the Admin system.
+2023.08.25 09:23:54,A0002,Logged into the system.
+2023.08.25 09:23:55,A0002,Accessing Sales system.
+2023.08.25 09:24:21,A0002,Added new item I0023.
+2023.08.25 09:24:28,A0002,Viewed list of item details.
+2023.08.25 09:24:34,A0002,Viewed list of stock details.
+2023.08.25 09:25:56,A0002,Added new supplier S-005 to item I0023.
+2023.08.25 09:26:00,A0002,Viewed list of item details.
+2023.08.25 09:26:06,A0002,Viewed list of stock details.
+2023.08.25 09:26:13,A0002,Viewed list of item details.
+2023.08.25 09:26:48,A0002,Edited item cost for item I0023 from supplier S-004.
+2023.08.25 09:29:45,A0002,Logged into the system.
+2023.08.25 09:29:46,A0002,Accessing Sales system.
+2023.08.25 09:29:48,A0002,Viewed list of stock details.
+2023.08.25 09:30:16,A0002,Added new supplier S-005 to item I0023.
+2023.08.25 09:30:18,A0002,Viewed list of item details.
+2023.08.25 09:30:23,A0002,Viewed list of supplier details.
+2023.08.25 09:30:27,A0002,Viewed list of item details.
+2023.08.25 09:30:29,A0002,Viewed list of stock details.
+2023.08.25 09:30:35,A0002,Viewed list of item details.
+2023.08.25 09:31:24,A0002,Edited item cost for item I0023 from supplier S-004.
+2023.08.25 09:41:37,A0002,Logged into the system.
+2023.08.25 09:41:38,A0002,Accessing Sales system.
+2023.08.25 09:41:42,A0002,Viewed list of item details.
+2023.08.25 09:41:52,A0002,Edited item cost for item I0023 from supplier S-004.
+2023.08.25 09:45:13,A0002,Logged into the system.
+2023.08.25 09:45:16,A0002,Accessing Sales system.
+2023.08.25 09:45:19,A0002,Viewed list of item details.
+2023.08.25 09:45:24,A0002,Edited item cost for item I0023 from supplier S-004.
+2023.08.25 09:45:26,A0002,Viewed list of item details.
+2023.08.25 09:46:49,A0002,Viewed list of stock details.
+2023.08.25 09:47:23,A0002,Edited stock details for item I0023.
+2023.08.25 09:47:26,A0002,Viewed list of stock details.
+2023.08.25 09:49:14,A0002,Logged into the system.
+2023.08.25 09:49:16,A0002,Logged out of the Admin system.
+2023.08.25 09:50:05,A0002,Logged into the system.
+2023.08.25 09:50:12,A0002,Viewed list of All users details.
+2023.08.25 09:50:51,A0002,Registered new user P0003.
+2023.08.25 09:50:58,A0002,Viewed list of All users details.
+2023.08.25 09:51:04,A0002,Viewed list of All users details.
+2023.08.25 09:51:30,A0002,Edited user details for P0003.
+2023.08.25 09:51:34,A0002,Viewed list of All users details.
+2023.08.25 09:51:46,A0002,Viewed list of Purchasing details.
+2023.08.25 09:51:47,A0002,Updated status of P0003 from Active to Inactive.
+2023.08.25 09:51:50,A0002,Viewed list of All users details.
+2023.08.25 09:52:20,A0002,Viewed list of All users details.
+2023.08.25 09:52:45,A0002,Viewed own profile.
+2023.08.25 09:53:18,A0002,Logged into the system.
+2023.08.25 09:53:21,A0002,Viewed own profile.
+2023.08.25 09:53:34,A0002,Logged into the system.
+2023.08.25 09:53:35,A0002,Viewed own profile.
+2023.08.25 09:53:42,A0002,Accessing Sales system.
+2023.08.25 09:53:49,A0002,Viewed list of item details.
+2023.08.25 09:53:55,A0002,Viewed list of stock details.
+2023.08.25 09:56:04,A0002,Added new item I0024.
+2023.08.25 09:56:07,A0002,Viewed list of item details.
+2023.08.25 09:56:13,A0002,Viewed list of stock details.
+2023.08.25 09:56:33,A0002,Viewed list of stock details.
+2023.08.25 09:58:09,A0002,Added new supplier S-005 to item I0024.
+2023.08.25 09:58:13,A0002,Viewed list of item details.
+2023.08.25 09:58:30,A0002,Logged out of the Sales system.
+2023.08.25 09:58:31,A0002,Logged out of the Admin system.
+2023.08.25 10:00:30,A0002,Logged into the system.
+2023.08.25 10:00:35,A0002,Accessing Sales system.
+2023.08.25 10:00:40,A0002,Viewed list of stock details.
+2023.08.25 10:01:00,A0002,Logged into the system.
+2023.08.25 10:01:01,A0002,Accessing Sales system.
+2023.08.25 10:01:03,A0002,Viewed list of stock details.
+2023.08.25 10:02:18,A0002,Logged into the system.
+2023.08.25 10:02:20,A0002,Accessing Sales system.
+2023.08.25 10:02:29,A0002,Viewed list of stock details.
+2023.08.25 10:02:49,A0002,Added new supplier S-005 to item I0024.
+2023.08.25 10:02:51,A0002,Viewed list of item details.
+2023.08.25 10:03:17,A0002,Logged into the system.
+2023.08.25 10:03:18,A0002,Accessing Sales system.
+2023.08.25 10:03:20,A0002,Viewed list of stock details.
+2023.08.25 10:03:27,A0002,Viewed list of stock details.
+2023.08.25 10:03:31,A0002,Added new supplier S-004 to item I0024.
+2023.08.25 10:03:33,A0002,Viewed list of item details.
+2023.08.25 10:03:40,A0002,Viewed list of item details.
+2023.08.25 10:03:50,A0002,Edited item cost for item I0024 from supplier S-004.
+2023.08.25 10:03:52,A0002,Viewed list of item details.
+2023.08.25 10:04:32,A0002,Viewed list of stock details.
+2023.08.25 10:05:05,A0002,Edited stock details for item I0024.
+2023.08.25 10:05:10,A0002,Viewed list of stock details.
+2023.08.25 11:03:46,A0002,Logged into the system.
+2023.08.25 11:03:47,A0002,Accessing Sales system.
+2023.08.25 11:03:51,A0002,Viewed list of stock details.
+2023.08.25 11:04:23,A0002,Logged into the system.
+2023.08.25 11:04:24,A0002,Accessing Sales system.
+2023.08.25 11:06:11,A0002,Logged into the system.
+2023.08.25 11:06:12,A0002,Accessing Sales system.
+2023.08.25 11:06:20,A0002,Updated status of I0024 from Active to Inactive.
+2023.08.25 11:06:22,A0002,Viewed list of item details.
+2023.08.25 11:06:30,A0002,Viewed list of stock details.
+2023.08.25 11:06:35,A0002,Added new supplier S-006 to item I0024.
+2023.08.25 11:06:40,A0002,Viewed list of item details.
+2023.08.25 11:06:49,A0002,Logged out of the Sales system.
+2023.08.25 11:06:50,A0002,Logged out of the Admin system.
+2023.08.25 11:20:18,A0002,Logged into the system.
+2023.08.25 11:20:18,A0002,Accessing Sales system.
+2023.08.25 11:20:24,A0002,Viewed list of stock details.
+2023.08.25 11:21:09,A0002,Logged out of the Sales system.
+2023.08.25 11:21:09,A0002,Logged out of the Admin system.
+2023.08.25 11:21:57,A0002,Logged into the system.
+2023.08.25 11:21:57,A0002,Accessing Sales system.
+2023.08.25 11:22:14,A0002,Viewed list of item details.
+2023.08.25 11:22:19,A0002,Logged out of the Sales system.
+2023.08.25 11:22:19,A0002,Logged out of the Admin system.
+2023.08.25 11:22:34,A0002,Logged into the system.
+2023.08.25 11:22:35,A0002,Accessing Sales system.
+2023.08.25 11:22:48,A0002,Viewed list of stock details.
+2023.08.25 11:23:02,A0002,Logged out of the Sales system.
+2023.08.25 11:23:02,A0002,Logged out of the Admin system.
+2023.08.25 11:35:52,A0002,Logged into the system.
+2023.08.25 11:35:52,A0002,Accessing Sales system.
+2023.08.25 11:36:51,A0002,Logged into the system.
+2023.08.25 11:36:52,A0002,Accessing Sales system.
+2023.08.25 11:36:58,A0002,Updated status of I0024 from Active to Inactive.
+2023.08.25 11:37:01,A0002,Viewed list of item details.
+2023.08.25 11:37:03,A0002,Viewed list of stock details.
+2023.08.25 11:37:34,A0002,Updated status of I0024 from Inactive to Active.
+2023.08.25 11:37:37,A0002,Viewed list of stock details.
+2023.08.25 11:37:40,A0002,Logged out of the Sales system.
+2023.08.25 11:37:40,A0002,Logged out of the Admin system.
+2023.08.25 12:07:17,A0002,Logged into the system.
+2023.08.25 12:07:20,A0002,Viewed list of Admin details.
+2023.08.25 12:07:28,A0002,Viewed list of All users details.
+2023.08.25 12:07:36,A0002,Viewed list of Admin details.
+2023.08.25 12:08:00,A0002,Accessing Sales system.
+2023.08.25 12:08:47,A0002,Viewed list of item details.
+2023.08.25 12:09:00,A0002,Viewed list of stock details.
+2023.08.25 12:09:03,A0002,Logged out of the Sales system.
+2023.08.25 12:09:04,A0002,Logged out of the Admin system.
+2023.08.25 12:09:32,A0002,Logged into the system.
+2023.08.25 12:09:33,A0002,Accessing Sales system.
+2023.08.25 12:09:45,A0002,Viewed list of stock details.
+2023.08.25 12:09:47,A0002,Logged out of the Sales system.
+2023.08.25 12:09:47,A0002,Logged out of the Admin system.
+2023.08.25 12:11:12,A0002,Logged into the system.
+2023.08.25 12:11:13,A0002,Accessing Sales system.
+2023.08.25 12:11:20,A0002,Viewed list of stock details.
+2023.08.25 12:11:22,A0002,Logged out of the Sales system.
+2023.08.25 12:11:23,A0002,Logged out of the Admin system.
+2023.08.25 12:11:57,A0002,Logged into the system.
+2023.08.25 12:11:58,A0002,Accessing Sales system.
+2023.08.25 12:12:03,A0002,Viewed list of supplier details.
+2023.08.25 12:13:14,A0002,Logged into the system.
+2023.08.25 12:13:14,A0002,Accessing Sales system.
+2023.08.25 12:13:16,A0002,Viewed list of supplier details.
+2023.08.25 12:13:30,A0002,Added new supplier S-006.
+2023.08.25 12:13:30,A0002,Added new supplier S-006.
+2023.08.25 12:13:33,A0002,Viewed list of supplier details.
+2023.08.25 12:14:07,A0002,Edited supplier details for supplier S-006.
+2023.08.25 12:14:09,A0002,Viewed list of supplier details.
+2023.08.25 12:14:23,A0002,Viewed list of supplier details.
+2023.08.25 12:16:12,A0002,Logged into the system.
+2023.08.25 12:16:13,A0002,Accessing Purchasing system.
+2023.08.25 12:16:17,A0002,Viewed list of stock details.
+2023.08.25 12:16:18,A0002,Viewed list of item details.
+2023.08.25 12:17:14,A0002,Viewed list of items from supplier S-005.
+2023.08.25 12:17:18,A0002,Viewed list of stock details.
+2023.08.25 12:17:20,A0002,Viewed list of suppliers for item I0002.
+2023.08.25 12:17:30,A0002,Viewed own profile.
+2023.08.25 12:17:33,A0002,Logged out of the Purchasing system.
+2023.08.25 12:17:33,A0002,Accessing Sales system.
+2023.08.25 12:19:26,A0002,Viewed list of daily sales.
+2023.08.25 12:19:45,A0002,Added new sales for item I0022 for date: 2023.08.25.
+2023.08.25 12:19:52,A0002,Viewed list of daily sales.
+2023.08.25 12:19:57,A0002,Viewed list of stock details.
+2023.08.25 12:20:34,A0002,Viewed list of daily sales.
+2023.08.25 12:20:43,A0002,Edited sales details for item I0022 of date: 2023.08.25 and updated stock quantity.
+2023.08.25 12:20:45,A0002,Viewed list of stock details.
+2023.08.25 12:20:54,A0002,Viewed list of daily sales.
+2023.08.25 12:21:07,A0002,Edited sales details for item I0022 of date: 2023.08.25 and updated stock quantity.
+2023.08.25 12:21:11,A0002,Viewed list of daily sales.
+2023.08.25 12:21:24,A0002,Viewed list of stock details.
+2023.08.25 12:21:27,A0002,Logged out of the Sales system.
+2023.08.25 12:21:27,A0002,Logged out of the Admin system.
+2023.08.25 13:48:09,A0002,Logged into the system.
+2023.08.25 13:48:18,A0002,Accessing Sales system.
+2023.08.25 13:48:46,A0002,Viewed list of stock details.
+2023.08.25 13:49:10,A0002,Viewed list of item details.
+2023.08.25 13:49:15,A0002,Viewed list of item details.
+2023.08.25 13:49:27,A0002,Logged out of the Sales system.
+2023.08.25 13:49:27,A0002,Logged out of the Admin system.
+2023.08.25 14:05:17,A0002,Logged into the system.
+2023.08.25 14:05:20,A0002,Viewed list of All users details.
+2023.08.25 14:05:54,A0002,Edited user details for S0003.
+2023.08.25 14:05:56,A0002,Viewed list of All users details.
+2023.08.25 14:06:07,A0002,Logged out of the Admin system.
+2023.08.25 14:07:16,A0002,Logged into the system.
+2023.08.25 14:07:18,A0002,Viewed list of All users details.
+2023.08.25 14:07:29,A0002,Viewed list of Sales details.
+2023.08.25 14:07:39,A0002,Viewed list of Purchasing details.
+2023.08.25 14:08:41,A0002,Viewed list of Sales details.
+2023.08.25 14:09:20,A0002,Logged into the system.
+2023.08.25 14:09:22,A0002,Viewed list of Purchasing details.
+2023.08.25 14:09:26,A0002,Viewed list of Purchasing details.
+2023.08.25 14:09:32,A0002,Viewed list of Purchasing details.
+2023.08.25 14:09:37,A0002,Viewed list of Purchasing details.
+2023.08.25 14:09:54,A0002,Logged out of the Admin system.
+2023.08.29 10:54:20,A0002,Logged into the system.
+2023.08.29 10:54:24,A0002,Accessing Sales system.
+2023.08.29 10:55:09,A0002,Logged out of the Sales system.
+2023.08.29 10:55:09,A0002,Logged out of the Admin system.
+2023.08.29 10:55:50,A0002,Logged into the system.
+2023.08.29 10:55:51,A0002,Accessing Purchasing system.
+2023.08.29 10:55:53,A0002,Viewed list of stock details.
+2023.08.29 10:56:09,A0002,Viewed list of suppliers for item I0002.
+2023.08.29 11:03:05,A0002,Logged out of the Purchasing system.
+2023.08.29 11:03:07,A0002,Accessing Sales system.
+2023.08.29 11:04:08,A0002,Added new sales for item I0022 for date: 2023.08.29.
+2023.08.29 11:04:18,A0002,Added new sales for item I0021 for date: 2023.08.29.
+2023.08.29 11:04:38,A0002,Viewed list of daily sales.
+2023.08.29 21:01:23,S0001,Logged into the system.
+2023.08.29 21:01:30,S0001,Viewed list of stock details.
+2023.08.29 21:01:37,S0001,Viewed list of suppliers for item I0003.
+2023.08.29 21:02:31,S0001,Logged into the system.
+2023.08.29 21:02:34,S0001,Viewed list of stock details.
+2023.08.29 21:02:43,S0001,Viewed list of suppliers for item I0023.
+2023.08.29 21:07:26,S0001,Logged into the system.
+2023.08.29 21:07:33,S0001,Viewed list of stock details.
+2023.08.29 21:07:39,S0001,Viewed list of suppliers for item I0023.
+2023.08.29 21:09:15,S0001,Viewed list of stock details.
+2023.08.29 21:09:21,S0001,Viewed list of suppliers for item I0022.
+2023.08.29 21:11:05,S0001,Logged into the system.
+2023.08.29 21:11:09,S0001,Viewed list of stock details.
+2023.08.29 21:11:24,S0001,Viewed list of suppliers for item I0023.
+2023.08.29 21:15:16,S0001,Logged into the system.
+2023.08.29 21:15:19,S0001,Viewed list of stock details.
+2023.08.29 21:15:24,S0001,Viewed list of suppliers for item I0023.
+2023.08.29 21:16:00,S0001,Logged into the system.
+2023.08.29 21:16:06,S0001,Viewed list of stock details.
+2023.08.29 21:16:11,S0001,Viewed list of suppliers for item I0023.
+2023.08.29 21:18:40,S0001,Logged into the system.
+2023.08.29 21:18:43,S0001,Viewed list of stock details.
+2023.08.29 21:18:47,S0001,Viewed list of suppliers for item I0023.
+2023.08.29 21:20:14,S0001,Logged into the system.
+2023.08.29 21:20:19,S0001,Viewed list of stock details.
+2023.08.29 21:20:21,S0001,Viewed list of suppliers for item I0023.
+2023.08.29 21:21:39,S0001,Logged into the system.
+2023.08.29 21:21:45,S0001,Viewed list of stock details.
+2023.08.29 21:21:47,S0001,Viewed list of suppliers for item I0023.
+2023.08.29 21:23:25,S0001,Logged into the system.
+2023.08.29 21:23:26,S0001,Viewed list of stock details.
+2023.08.29 21:23:28,S0001,Viewed list of suppliers for item I0023.
+2023.08.29 21:25:42,S0001,Logged into the system.
+2023.08.29 21:25:43,S0001,Viewed list of stock details.
+2023.08.29 21:25:45,S0001,Viewed list of suppliers for item I0023.
+2023.08.29 21:30:15,S0001,Logged into the system.
+2023.08.29 21:30:16,S0001,Viewed list of stock details.
+2023.08.29 21:30:18,S0001,Viewed list of suppliers for item I0023.
+2023.08.29 21:31:33,S0001,Logged into the system.
+2023.08.29 21:31:40,S0001,Viewed list of stock details.
+2023.08.29 21:31:43,S0001,Viewed list of suppliers for item I0023.
+2023.09.01 01:25:06,S0001,Logged into the system.
+2023.09.01 01:25:12,S0001,Viewed list of stock details.
+2023.09.01 01:25:18,S0001,Viewed list of suppliers for item I0022.
+2023.09.01 01:28:32,S0001,Logged into the system.
+2023.09.01 01:28:34,S0001,Viewed list of stock details.
+2023.09.01 01:28:39,S0001,Viewed list of suppliers for item I0022.
+2023.09.01 01:30:19,S0001,Logged into the system.
+2023.09.01 01:30:21,S0001,Viewed list of stock details.
+2023.09.01 01:30:24,S0001,Viewed list of suppliers for item I0022.
+2023.09.01 01:31:35,S0001,Logged into the system.
+2023.09.01 01:31:36,S0001,Viewed list of stock details.
+2023.09.01 01:31:39,S0001,Viewed list of suppliers for item I0022.
+2023.09.01 01:32:53,S0001,Logged into the system.
+2023.09.01 01:32:54,S0001,Viewed list of stock details.
+2023.09.01 01:32:57,S0001,Viewed list of suppliers for item I0022.
+2023.09.01 01:34:57,S0001,Logged into the system.
+2023.09.01 01:34:57,S0001,Viewed list of stock details.
+2023.09.01 01:34:59,S0001,Viewed list of suppliers for item I0023.
+2023.09.01 01:42:49,S0001,Logged into the system.
+2023.09.01 01:42:51,S0001,Viewed list of stock details.
+2023.09.01 01:42:53,S0001,Viewed list of suppliers for item I0023.
+2023.09.01 02:19:51,S0001,Logged into the system.
+2023.09.01 02:19:52,S0001,Viewed list of stock details.
+2023.09.01 02:19:54,S0001,Viewed list of suppliers for item I0023.
+2023.09.01 02:23:10,S0001,Logged into the system.
+2023.09.01 02:23:15,S0001,Viewed list of stock details.
+2023.09.01 02:23:17,S0001,Viewed list of suppliers for item I0023.

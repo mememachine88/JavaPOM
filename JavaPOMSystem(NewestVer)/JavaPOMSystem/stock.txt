@@ -1,0 +1,25 @@
+I0000,Category,Brand,Name,Specification,ExpiryDate,0.0,0,0,Inactive
+I0001,Meat,Brand1,Chicken,200g,2023.07.13,5.0,20,30,Active
+I0002,Beverages,Brand1,100 Plus,1.5L,2025.03.25,3.5,40,80,Active
+I0003,Seafood,Brand1,FishBalls,200g,2023.08.26,6.0,15,20,Active
+I0004,Biscuits,Brand1,Choco Chips,150g,2024.10.19,4.5,100,60,Active
+I0005,Snacks,Brand1,Potato Chips,150g,2025.04.07,3.0,70,60,Active
+I0006,Vegetables,Brand1,Broccoli,300g,2023.08.05,3.0,20,70,Active
+I0007,Condiments,Brand1,Black Pepper,50g,2024.07.28,4.0,55,40,Active
+I0008,DairyProducts,Brand1,Milk,1L,2023.11.11,8.0,30,20,Active
+I0009,Fruits,Brand1,Orange,1pc,2023.11.09,2.0,15,50,Active
+I0010,FrozenFood,Brand1,Nuggets,400g,2024.05.12,8.5,40,25,Active
+I0011,Bakery,Brand1,Flour,500g,2024.02.07,3.0,20,50,Active
+I0012,Bakery,Brand1,Bread,100g,2023.07.30,1.5,15,50,Active
+I0013,HealthCare,Brand1,Masks,1 pack,-,1.5,100,30,Active
+I0014,CleaningSupplies,Brand1,Detergent,1L,-,12.5,20,30,Active
+I0015,PersonalCare,Brand1,Toothpaste,300g,-,10.5,20,30,Active
+I0016,Beverages,Brand1,Soya,1L,2023.12.15,3.0,25,45,Active
+I0017,Beverages,Brand1,Orange Juice,1.5L,2024.01.07,7.0,55,45,Active
+I0018,Fruits,Brand1,Tomato,1pc,2023.10.29,2.0,15,50,Active
+I0019,Fruits,Brand1,Apple,1pc,2023.11.05,2.5,5,50,Active
+I0020,Snacks,Brand1,Peanuts,150g,2024.03.15,2.0,20,30,Active
+I0021,Condiments,Brand1,Salt,500g,2024.12.30,4.0,99,50,Active
+I0022,Condiments,Brand1,Sugar,500g,2024.12.31,3.5,49,65,Active
+I0023,Beverages,Vitagen,Vitagen,150ml*5,-,4.5,0,100,Active
+I0024,PersonalCare,Colgate,Toothpaste,300ml,-,7.5,0,50,Inactive
