@@ -19,7 +19,10 @@ public class Info {
     
     public static enum Status{
         Active,
-        Inactive
+        Inactive,
+        Pending,
+        Approved,
+        Rejected
     }
 
     public static String generateNewID(String type){
