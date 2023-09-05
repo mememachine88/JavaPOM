@@ -467,7 +467,7 @@ public class JavaPOMSystem {
                 case "2" -> supplierEntry();
                 case "3" -> dailySalesEntry();
                 case "4" -> PurchaseRequisition.displayLowStockItems();
-                case "5" -> PurchaseRequisition.createPurchaseRequisition(User.loggedInUser);
+                case "5" -> PurchaseRequisition.createPurchaseRequisition();
                 case "6" -> {}
                 case "7" -> {}
                 case "8" -> User.viewOwnProfile(User.loggedInUser);

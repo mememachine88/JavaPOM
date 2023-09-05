@@ -1,2 +1,3 @@
-PR001,javapomsystem.User@7a30d1e6,S-004,null,null,0.0,2023/09/01 01:42:55[I0023#null#null#3.8#20/]
-PR002,javapomsystem.User@4e515669,S-004,H1ME Distributor,Kuala Lumpur,130.0,2023/09/01 02:19:58[I0023#Vitagen#Vitagen#3.8#100/]
+PR001,S0001,S-001,O&O Distributor,Bukit Jalil,100.0,2023/09/05 11:40:35,[I0022#Sugar#Brand1#0.0#60/],Pending
+PR002,S0001,S-004,H1ME Distributor,Kuala Lumpur,130.0,2023/09/05 11:51:58,[I0023#Vitagen#Vitagen#0.0#50/],Pending
+PR003,S0001,S-001,O&O Distributor,Bukit Jalil,100.0,2023/09/05 11:55:45,[I0022#Sugar#Brand1#0.0#50/],Pending

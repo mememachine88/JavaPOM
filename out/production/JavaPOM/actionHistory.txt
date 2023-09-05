@@ -657,3 +657,30 @@
 2023.09.01 02:23:10,S0001,Logged into the system.
 2023.09.01 02:23:15,S0001,Viewed list of stock details.
 2023.09.01 02:23:17,S0001,Viewed list of suppliers for item I0023.
+2023.09.05 10:34:20,S0001,Logged into the system.
+2023.09.05 11:05:08,S0001,Logged into the system.
+2023.09.05 11:05:10,S0001,Viewed list of stock details.
+2023.09.05 11:05:24,S0001,Viewed list of suppliers for item I00asd.
+2023.09.05 11:10:40,S0001,Logged into the system.
+2023.09.05 11:10:41,S0001,Viewed list of stock details.
+2023.09.05 11:10:45,S0001,Viewed list of suppliers for item Iasdv.
+2023.09.05 11:10:56,S0001,Viewed list of stock details.
+2023.09.05 11:10:57,S0001,Viewed list of suppliers for item I0022.
+2023.09.05 11:34:20,S0001,Logged into the system.
+2023.09.05 11:34:21,S0001,Viewed list of stock details.
+2023.09.05 11:34:25,S0001,Viewed list of suppliers for item I0022.
+2023.09.05 11:36:06,S0001,Logged into the system.
+2023.09.05 11:36:07,S0001,Viewed list of stock details.
+2023.09.05 11:36:09,S0001,Viewed list of suppliers for item I0022.
+2023.09.05 11:36:18,S0001,Logged into the system.
+2023.09.05 11:36:20,S0001,Viewed list of stock details.
+2023.09.05 11:36:22,S0001,Viewed list of suppliers for item I0022.
+2023.09.05 11:39:11,S0001,Logged into the system.
+2023.09.05 11:39:13,S0001,Viewed list of stock details.
+2023.09.05 11:39:15,S0001,Viewed list of suppliers for item I0022.
+2023.09.05 11:40:32,S0001,Logged into the system.
+2023.09.05 11:40:34,S0001,Viewed list of stock details.
+2023.09.05 11:40:35,S0001,Viewed list of suppliers for item I0022.
+2023.09.05 11:51:53,S0001,Logged into the system.
+2023.09.05 11:51:56,S0001,Viewed list of stock details.
+2023.09.05 11:51:58,S0001,Viewed list of suppliers for item I0023.
