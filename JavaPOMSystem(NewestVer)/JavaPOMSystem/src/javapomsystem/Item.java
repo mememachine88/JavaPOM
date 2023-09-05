@@ -22,8 +22,7 @@ public class Item implements DataOperations{
     private double Cost;
     private Info.Status Status;
     private int quantity;
-    private static String separator = ",";
-
+    private static String separator = "/";
     public enum category{
         Meat,
         Seafoods,
@@ -89,9 +88,11 @@ public class Item implements DataOperations{
         this.quantity = quantity;
 
     }
-    public String toString(){
-        return this.ItemID + "#"+ this.Name +"#" + this.getBrand() +"#" + this.getCost()+"#"+ this.quantity + "/";
+    public Item(String itemID, double cost) {
+        this.ItemID = itemID;
+        this. Cost = cost;
     }
+
     public String getItemID() {
         return ItemID;
     }
@@ -149,7 +150,6 @@ public class Item implements DataOperations{
     }
     public void setQuantity(int quantity){this.quantity= quantity;}
     public int getQuantity(){return quantity;}
-    
     public static void displayItemsDetails(){
         ArrayList<Item> itemList = FileAccess.ReadFromTextFile(Item.class);
         ArrayList<Stock> stockList = FileAccess.ReadFromTextFile(Stock.class);
@@ -213,13 +213,8 @@ public class Item implements DataOperations{
         }      
     }
     
-    public static String displayItemSuppliers(){
-        
-        Scanner Sc = new Scanner(System.in);
-        Stock.displayStockDetails();
-        System.out.print("\nPlease enter an item ID to continue \t: I");
-        String itemID = "I" + Sc.nextLine();
-        
+    public static String displayItemSuppliers(String itemID){
+
         ArrayList<Item> itemList = FileAccess.ReadFromTextFile(Item.class);
         ArrayList<Stock> stockList = FileAccess.ReadFromTextFile(Stock.class);
         ArrayList<Supplier> supplierList = FileAccess.ReadFromTextFile(Supplier.class);
@@ -270,12 +265,12 @@ public class Item implements DataOperations{
         return itemID;
     }
     
-    public static void displaySpecificSupplierItems(){
+    public static void displaySpecificSupplierItems(String supplierID){
         
-        Scanner Sc = new Scanner(System.in);
+       /* Scanner Sc = new Scanner(System.in);
         Supplier.displaySupplierDetails(true);
         System.out.print("\nPlease enter a supplier ID to continue \t: S-");
-        String supplierID = "S-" + Sc.nextLine();
+        String supplierID = "S-" + Sc.nextLine();*/
         
         ArrayList<Item> itemList = FileAccess.ReadFromTextFile(Item.class);
         ArrayList<Stock> stockList = FileAccess.ReadFromTextFile(Stock.class);

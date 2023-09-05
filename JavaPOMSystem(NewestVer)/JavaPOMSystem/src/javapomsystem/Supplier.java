@@ -15,7 +15,7 @@ public class Supplier implements DataOperations {
     private double DeliveryFee;
     private Info.Status Status;
     
-    private static String separator = ",";
+    private static String separator = "/";
     
     public Supplier(String supplierID, String name, String address, double deliveryFee){
         SupplierID = supplierID;

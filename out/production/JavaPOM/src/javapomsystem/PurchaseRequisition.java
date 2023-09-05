@@ -10,6 +10,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.Writer;
 import java.text.DecimalFormat;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -27,7 +28,7 @@ public class PurchaseRequisition {
     private String salesManagerID;
     private Supplier supplier;//get supplier ID, delivery fee and address
     private String date;
-    private ArrayList<Item> itemList; //consists of itemid,brand and item name and cost stores it as individual object
+    private ArrayList<Stock> itemList; //consists of itemid,brand and item name and cost stores it as individual object
     private String status;
 
     public String GetPRID() {
@@ -42,12 +43,23 @@ public class PurchaseRequisition {
         this.date = Date;
     }
 
-    public void setStockList(ArrayList<Item> itemList) {
+    public void setStockList(ArrayList<Stock> itemList) {
         this.itemList = itemList;
     }
-    public ArrayList<Item> getItemList(){return itemList;}
 
-    public PurchaseRequisition(String prID, Supplier supplier, ArrayList<Item> item, String date, String status) {
+    public void setStatus(String status) {
+        this.status = status;
+    }
+
+    public String getStatus() {
+        return status;
+    }
+
+    public ArrayList<Stock> getItemList() {
+        return itemList;
+    }
+
+    public PurchaseRequisition(String prID, Supplier supplier, ArrayList<Stock> item, String date, String status) {
         this.prID = prID;
         this.supplier = supplier;
         this.date = date;
@@ -56,102 +68,165 @@ public class PurchaseRequisition {
     }
 
     public static void displayLowStockItems() {
-        ArrayList<Item> itemList = FileAccess.ReadFromTextFile(Item.class);
         ArrayList<Stock> stockList = FileAccess.ReadFromTextFile(Stock.class);
 
-        Collections.sort(itemList, Comparator.comparing(Item::getSupplierID).thenComparing(Item::getItemID));
+        Collections.sort(stockList, Comparator.comparing(Stock::getItemID));
 
-        System.out.println("\n~ ~ I T E M   D E T A I L S ~ ~\n");
-        String[] header = {"Supplier ID", "Item ID", "Category", "Brand", "Name", "Specifications", "Supplier ID",
-                "Cost", "Status"};
-        int[] spacing = {12, 10, 20, 15, 20, 20, 12, 12, 15};
+        System.out.println("\n~ ~ L O W   S T O C K   I T E M   D E T A I L S ~ ~\n");
+        String[] header = {"Item ID", "Category", "Brand", "Name", "Specification", "Price", "Quantity", "Reorder Level", "Status"};
+        int[] spacing = {10, 20, 15, 20, 20, 12, 10, 15, 15};
         Info.generateTable(header, spacing, true);
 
         DecimalFormat df = new DecimalFormat("0.00");
         df.setMaximumFractionDigits(2);
 
-        for (Item item : itemList) {
-            for (Stock stock : stockList) {
-                if (item.getItemID().equals(stock.getItemID()) && stock.getQuantity() <= stock.getReorderLevel()) {
-                    String[] data = {item.getSupplierID(), item.getItemID(), stock.getCategory(), stock.getBrand(),
-                            stock.getName(), item.getSupplierID(), item.getSpecification(), "RM " +
-                            df.format(item.getCost()), item.getStatus()};
-                    Info.generateTable(data, spacing, false);
-                }
+        for (Stock stock : stockList) {
+            if (stock.getReorderLevel() >= stock.getQuantity()) {
+                String[] data = {stock.getItemID(), stock.getCategory(), stock.getBrand(), stock.getName(), stock.getSpecification(), df.format(stock.getSellingPrice()),
+                        Integer.toString(stock.getQuantity()), Integer.toString(stock.getReorderLevel()), stock.getStatus()};
+                Info.generateTable(data, spacing, false);
             }
+
         }
     }
 
-
-    public static void DisplayItems() {
+    public static void displaySuppliers(String itemID, int quantity) {
         ArrayList<Item> itemList = FileAccess.ReadFromTextFile(Item.class);
-        String[] header = {"Item ID", "Category", "Name", "Supplier ID", "Cost", "Specifications", "Status"};
-        int[] spacing = {10, 20, 20, 12, 10, 20, 10};
-        System.out.println("\n~ ~ I T E M   D E T A I L S ~ ~\n");
-        Info.generateTable(header, spacing, true);
+        ArrayList<Stock> stockList = FileAccess.ReadFromTextFile(Stock.class);
+        ArrayList<Supplier> supplierList = FileAccess.ReadFromTextFile(Supplier.class);
+        ArrayList<Item> filteredList = new ArrayList<>();
+
         for (Item item : itemList) {
+            if (item.getItemID().equals(itemID)) {
+                filteredList.add(item);
+            }
+        }
+
+        if (!filteredList.isEmpty()) {
+            for (Stock stock : stockList) {
+                if (stock.getItemID().equals(itemID)) {
+                    System.out.println("\n~ ~ I T E M   D E T A I L S ~ ~\n");
+                    System.out.println("Item ID \t\t: " + stock.getItemID());
+                    System.out.println("Category \t\t: " + stock.getCategory());
+                    System.out.println("Brand \t\t\t: " + stock.getBrand());
+                    System.out.println("Name \t\t\t: " + stock.getName());
+                    System.out.println("Specifications \t\t: " + stock.getSpecification());
+                }
+            }
+            System.out.println("\n~ ~ S U P P L I E R S   D E T A I L S ~ ~\n");
+            String[] header = {"Supplier ID", "Name", "Address", "Delivery Fee", "Cost", "Order Quantity", "Total Amount"};
+            int[] spacing = {15, 25, 20, 15, 10, 15, 15};
+            Info.generateTable(header, spacing, true);
+
             DecimalFormat df = new DecimalFormat("0.00");
             df.setMaximumFractionDigits(2);
-            String[] data = {item.getItemID(), item.getCategory(), item.getName(), item.getSupplierID(), "RM " +
-                    df.format(item.getCost()), item.getSpecification(), item.getStatus()};
-            Info.generateTable(data, spacing, false);
 
+            for (Item item : filteredList) {
+
+                for (Supplier supplier : supplierList) {
+                    if (supplier.getSupplierID().equals(item.getSupplierID()) &&
+                            supplier.getStatus().equals(Info.Status.Active.name())) {
+                        double totalAmount = item.getCost() + quantity + supplier.getDeliveryFee();
+                        String[] data = {supplier.getSupplierID(), supplier.getName(), supplier.getAddress(), "RM "
+                                + df.format(supplier.getDeliveryFee()), "RM " + df.format(item.getCost()), Integer.toString(quantity), "RM " + df.format(totalAmount)};
+                        Info.generateTable(data, spacing, false);
+                    }
+                }
+            }
+            System.out.println("");
+
+        } else {
+            System.out.println("\n(SYSTEM) Item does not exist! Please try again.");
         }
+
+        ActionHistory action = new ActionHistory(User.loggedInUser.getID(), "Viewed list of suppliers for item " + itemID + ".");
+        action.recordActionHistory();
 
     }
 
     public static void createPurchaseRequisition() {
-        displayLowStockItems();
-        String itemID = Item.displayItemSuppliers();
+        Scanner Sc = new Scanner(System.in);
         ArrayList<Item> itemList = FileAccess.ReadFromTextFile(Item.class);
-        ArrayList<Item> prItemList = new ArrayList<>();
+        ArrayList<Stock> prItemList = new ArrayList<>();
         ArrayList<Stock> stockList = FileAccess.ReadFromTextFile(Stock.class);
         ArrayList<Supplier> supplierList = FileAccess.ReadFromTextFile(Supplier.class);
-        DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
+
+        DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy.MM.dd HH:mm:ss");
         LocalDateTime now = LocalDateTime.now();
         String date = dtf.format(now);
+
         boolean flag = false;
-        for (Item item : itemList
-        ) {
-            if (item.getItemID().equals(itemID)) {
-                flag = true;
+        boolean addItem = false;
+        boolean isSupplierFound = false;
+        String supplierID = null;
+        String choice = "Y";
+
+        displayLowStockItems();
+        do{
+            if(isSupplierFound){
+                Item.displaySpecificSupplierItems(supplierID);
             }
-        }
-        if (flag) {
 
-            System.out.print("Please Enter Supplier ID:\t S-");
-            Scanner Sc = new Scanner(System.in);
-            String supplierID = "S-" + Sc.nextLine();
-            boolean isSupplierFound = false;
-            for (Item item : itemList) {
-                if (item.getSupplierID().equals(supplierID) && item.getStatus().equals("Active") && item.getItemID().equals(itemID)) {
-                    isSupplierFound = true;
-                    System.out.println("Please enter the amount you wish to purchase:\t\t");
-                    String quantity = Sc.nextLine();
+            System.out.print("Please enter the item that you wish to restock: I");
+            String itemID = "I" + Sc.nextLine();
 
-                    int orderQuantity = Integer.parseInt(quantity);
-                    Stock stockDetails = Stock.getStockDetails(itemID);
-                    prItemList.add(new Item(item.getItemID(), stockDetails.getName(), stockDetails.getBrand(), stockDetails.getCost(), orderQuantity));
-
-                    break;
+            for (Stock stock : stockList) {
+                if (stock.getItemID().equals(itemID) && stock.getStatus().equals("Active")) {
+                    flag = true;
                 }
             }
-            if (isSupplierFound == false) {
-                System.out.println("Supplier not found or Supplier is Inactive!");
+            if(!flag){
+                System.out.println("\n(SYSTEM) Item not found or Item is Inactive");
+                break;
             }
+
+            boolean validQuantity = false;
+            int quantity = 0;
+            while (!validQuantity) {
+                System.out.print("Please enter the amount you wish to purchase:\t");
+                String inputQuantity = Sc.nextLine();
+                try {
+                    quantity = Integer.parseInt(inputQuantity);
+                    validQuantity = true;
+                } catch (NumberFormatException e) {
+                    System.out.println("(SYSTEM) Invalid input for cost. Please enter a valid number.\n");
+                }
+            }
+            displaySuppliers(itemID, quantity);
+            if (!addItem) {
+                System.out.print("Please Enter Supplier ID:\t S-");
+                supplierID = "S-" + Sc.nextLine();
+                addItem = true;
+            }
+            for (Item item : itemList) {
+                if (item.getSupplierID().equals(supplierID) && item.getStatus().equals("Active")
+                        && item.getItemID().equals(itemID)) {
+                    isSupplierFound = true;
+                    Stock stockDetails = Stock.getStockDetails(itemID);
+                    System.out.println(quantity);
+                    prItemList.add(new Stock(item.getItemID(), quantity, item.getCost()));
+                }
+            }
+            System.out.println("Do you wish to add new item? Y/N");
+            choice = Sc.nextLine();
+
+        } while(choice.equalsIgnoreCase("Y"));
+
+        if (!isSupplierFound) {
+            System.out.println("\n(SYSTEM) Supplier not found or Supplier is Inactive!");
+
+        } else {
             Supplier supplierDetails = Supplier.getSupplierDetails(supplierID);
             PurchaseRequisition purchaseRequisition =
                     new PurchaseRequisition(Info.generateNewID("PurchaseRequisition"), supplierDetails,
-                            prItemList,date,Info.Status.Pending.name());
+                            prItemList, date, Info.Status.Pending.name());
 
             String seperator = ",";
             String line = purchaseRequisition.GetPRID() + seperator + User.loggedInUser.getID() +
                     seperator + purchaseRequisition.supplier.getSupplierID() + seperator +
-                    purchaseRequisition.supplier.getName() +
-                    seperator + purchaseRequisition.supplier.getAddress() + seperator +
                     Double.toString(purchaseRequisition.supplier.getDeliveryFee()) + seperator +
-                    purchaseRequisition.date +seperator+
-                    purchaseRequisition.getItemList()+ seperator+purchaseRequisition.status;
+                    purchaseRequisition.date + seperator +
+                    purchaseRequisition.getItemList() + seperator + purchaseRequisition.status;
             System.out.println(line);
             System.out.println(prItemList);
 
@@ -166,9 +241,5 @@ public class PurchaseRequisition {
                 System.out.println(ex.getMessage());
             }
         }
-
-//PR001, S0001,S-001,SupplierName, Address, 50, 2023.08.09[I0002#itemName#brand1#30#3.5/]
-
-
     }
 }

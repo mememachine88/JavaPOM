@@ -1,6 +1,6 @@
-S-001,O&O Distributor,Bukit Jalil,100.0,Active
-S-002,Me2 Distributor,Johor,150.0,Inactive
-S-003,YMe Distributor,Penang,80.0,Active
-S-004,H1ME Distributor,Kuala Lumpur,130.0,Active
-S-005,HBM Distributor,Cheras,80.0,Active
-S-006,Supplier666,Jalan 666,30.0,Inactive
+S-001/O&O Distributor/Bukit Jalil/100.0/Active
+S-002/Me2 Distributor/Johor/150.0/Inactive
+S-003/YMe Distributor/Penang/80.0/Active
+S-004/H1ME Distributor/Kuala Lumpur/130.0/Active
+S-005/HBM Distributor/Cheras/80.0/Active
+S-006/Supplier666/Jalan 666/30.0/Inactive

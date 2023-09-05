@@ -12,7 +12,7 @@ import java.util.Scanner;
 
 
 public class FileAccess {
-
+    private static String separator = "/";
     public static enum FileName {
         user,
         itemList,
@@ -48,7 +48,7 @@ public class FileAccess {
         ArrayList<T> objectList = new ArrayList<>();
 
         for (String line : contentString) {
-            String[] info = line.split(",");
+            String[] info = line.split("/");
             try {
                 switch (objectType.getSimpleName()) {
                     case "User" ->
@@ -88,36 +88,31 @@ public class FileAccess {
             BufferedWriter writer = new BufferedWriter(new FileWriter(getFileName(objectType)));
             for (Object object : objectList) {
                 switch (objectType.getSimpleName()) {
-                    case "User" -> {
+                    case "User" ->{
                         User user = (User) object;
-                        writer.write(user.getID() + "," + user.getPassword() + "," + user.getName() + "," + user.getIC() + "," +
-                                user.getEmail() + "," + user.getContactNumber() + "," + user.getStatus());
+                        writer.write(user.getID() + separator + user.getPassword() + separator + user.getName() + separator + user.getIC() + separator +
+                                user.getEmail() + separator + user.getContactNumber() + separator + user.getStatus());
                     }
                     case "Stock" -> {
                         Stock stock = (Stock) object;
-                        writer.write(stock.getItemID() + "," + stock.getCategory() + "," + stock.getBrand() + "," + stock.getName() + "," +
-                                stock.getSpecification() + "," + stock.getExpiryDate() + "," + stock.getSellingPrice() + "," +
-                                stock.getQuantity() + "," + stock.getReorderLevel() + "," + stock.getStatus());
+                        writer.write(stock.getItemID() + separator + stock.getCategory() + separator + stock.getBrand() + separator + stock.getName() + separator +
+                                stock.getSpecification() + separator + stock.getExpiryDate() + separator + stock.getSellingPrice() + separator +
+                                stock.getQuantity() + separator + stock.getReorderLevel() + separator + stock.getStatus());
                     }
                     case "Item" -> {
                         Item item = (Item) object;
-                        writer.write(item.getItemID() + "," + item.getSupplierID() + "," + item.getCost() + "," + item.getStatus());
+                        writer.write(item.getItemID() + separator + item.getSupplierID() + separator + item.getCost() + separator + item.getStatus());
                     }
-                    case "Supplier" -> {
+                    case "Supplier" ->{
                         Supplier supplier = (Supplier) object;
-                        writer.write(supplier.getSupplierID() + "," + supplier.getName() + "," + supplier.getAddress() + "," + supplier.getDeliveryFee() + "," + supplier.getStatus());
+                        writer.write(supplier.getSupplierID() + separator + supplier.getName() + separator + supplier.getAddress() + separator + supplier.getDeliveryFee() + separator + supplier.getStatus());
                     }
-                    case "dailySales" -> {
+                    case "dailySales" ->{
                         dailySales sales = (dailySales) object;
-                        writer.write(sales.getSalesDate() + "," + sales.getItemID() + "," + sales.getQuantity() + "," + sales.getSellingPrice());
-                    }
-                    case "PurchaseRequisition" -> {
-                        PurchaseRequisition purchaseRequisition = (PurchaseRequisition) object;
-
+                        writer.write(sales.getSalesDate() + separator + sales.getItemID() + separator + sales.getQuantity() + separator + sales.getSellingPrice());
                     }
 
-                    default -> {
-                    }
+                    default -> {}
 
                 }
                 writer.newLine();

@@ -15,7 +15,7 @@ public class Stock extends Item{
     private int ReorderLevel;
     private Info.Status Status;
     
-    private static String separator = ",";
+    private static String separator = "/";
 
  
     //Stock object in text file
@@ -44,7 +44,11 @@ public class Stock extends Item{
         SellingPrice = price;
         ReorderLevel = ROL;
     }
-    
+    public Stock(String itemID, int quantity, double cost){
+        super(itemID,cost);
+        this.Quantity= quantity;
+
+    }
     public String getExpiryDate(){
         return ExpiryDate;
     }
@@ -81,7 +85,9 @@ public class Stock extends Item{
     public void setReorderLevel(int ROL){
         ReorderLevel = ROL;
     }
-   
+    public String toString(){
+        return getItemID() +"#" + getCost()+"#"+ getQuantity() ;
+    }
     @Override
     public void setStatus(String status){
         this.Status = Info.Status.valueOf(status);
