@@ -684,6 +684,3 @@
 2023.09.05 11:51:53,S0001,Logged into the system.
 2023.09.05 11:51:56,S0001,Viewed list of stock details.
 2023.09.05 11:51:58,S0001,Viewed list of suppliers for item I0023.
-2023.09.05 11:55:42,S0001,Logged into the system.
-2023.09.05 11:55:43,S0001,Viewed list of stock details.
-2023.09.05 11:55:45,S0001,Viewed list of suppliers for item I0022.
